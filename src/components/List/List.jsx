@@ -15,3 +15,5 @@ const List = ({ trendingMovies }) => {
 };
 
 export default List;
+
+//test

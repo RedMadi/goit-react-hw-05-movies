@@ -32,9 +32,3 @@ export const getMovieByKeyWord = async query => {
   );
   return response.data.results;
 };
-// export const getMovieByKeyWord = async keyword => {
-//   const response = await axios.get(
-//     `search/movie?api_key=${apiKey}&language=en-US&page=1&include_adult=false&query=${keyword}`
-//   );
-//   return response.data.results;
-// };

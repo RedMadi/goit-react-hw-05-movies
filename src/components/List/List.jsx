@@ -1,9 +1,6 @@
 import { LinkMovies, MovieItem } from './List.styled';
-import { useLocation } from 'react-router-dom';
 
 const List = ({ trendingMovies }) => {
-  const location = useLocation();
-
   return (
     <dl>
       {trendingMovies.map(trendingMovie => (
